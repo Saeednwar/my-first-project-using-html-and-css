@@ -1,0 +1,323 @@
+/* color #4ABC9A */
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html
+{
+  font-size: 62.5%;
+}
+.social_icon
+{
+font-size: 2rem;
+position: relative;
+top:-3.5rem;
+}
+.first_line
+{
+  height: 5rem;
+  width: 100%;
+  text-align: right;
+  background-color: #4ABC9A;
+}
+.logo
+{
+  height: 60px;
+}
+.nav-link
+{
+  color:black;
+}
+.background
+{
+  align-items: center;
+ height: 66rem;
+ background-image: url(img/background.jpeg);
+ background-repeat: no-repeat;
+ background-attachment:fixed;
+ background-position: center;
+ background-size: cover ;
+} 
+.home_massege
+{
+     color: aliceblue;
+   font-size: 8rem;
+   text-shadow: 2px 3px 4px rgb(0 157 0 / 40%);
+    padding-top: 10rem;
+   transition-duration: 1s;
+}
+.background:hover .home_massege
+{
+  transform: scale(1.011);
+  transition-duration: 1s;
+}
+                                /* this is hr tag  */ 
+ hr
+{
+      background-color: #4ABC9A; 
+      width: 10rem;
+      border: none; 
+      height: 0.3rem;
+      text-align: center;
+      margin: 0rem auto;
+      box-shadow: 2px 3px 3px rgb(0 150 0 / 50%) ;
+}
+                    /* end of hr tag */
+                        /*home font size */
+.nav-item
+{
+  font-size: 20px;
+}
+                           /*  home font size */
+.button_color
+{
+  margin-top: 6rem;
+  width: 9rem;
+  height: 3rem;
+  box-shadow: 6px 8px 30px 0px rgb(0 240 0/ 65%);
+  background-color: #4ABC9A;  
+  transition: 1s;
+}
+.button_color:hover
+{ 
+  transform: scale(1.1);
+  transition: 1s;
+  width: 9.5rem;
+}
+/* /////////////////////////// project img section //////////////////////// */
+.row
+{
+  padding-top: 5rem;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5rem;
+}
+.box1 img
+{
+  overflow: hidden;
+  width: 50rem;
+  height: auto;
+}
+.box1
+{
+  overflow: hidden;
+  height: auto;
+  width: 50rem;
+  position: relative;
+}
+.box1__content
+{
+  position: absolute;
+  top:-200%;
+  left:0%;
+  box-sizing: border-box;
+  padding: 70px;
+  padding-top: 20rem;
+  height: 850px;
+  width: 500px;
+  font-size: 8rem;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 1.5s;
+}
+.box1:hover .box1__content
+{
+ top:0%;
+}
+/* //////////////////////////////////////// img no 2 ///////////////////// */
+.box2 img
+{
+  width: 50rem;
+  height: auto;
+}
+.box2
+{
+  overflow: hidden;
+  height: auto;
+  width: 50rem;
+  position: relative;
+}
+.box2__content
+{
+  position: absolute;
+  top:0%;
+  left:-100%;
+  box-sizing: border-box;
+  padding: 60px;
+  height: 50rem;
+  width: 50rem;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 1.5s;
+}
+.box2:hover .box2__content
+{
+ left:0%;
+}
+/* /////////////////////// img no 3 /////////////////////////// */
+.box3 img
+{
+  width: 50rem;
+  height: auto;
+  transform: scale(1.1);
+  transform: scale3d(1.1s);
+}
+.box3
+{
+  overflow: hidden;
+  height: auto;
+  width: 50rem;
+  position: relative;
+}
+.box3__content
+{
+  position: absolute;
+  top:0%;
+  right:-100%;
+  box-sizing: border-box;
+  padding: 10rem;
+  height: 50rem;
+  width: 50rem;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 60%);
+  transition: 1.5s;
+}
+.box3:hover .box3__content
+{
+ right:0%;
+}
+.margin_class
+{
+  margin-top: 15px;
+}
+.viwe_all_project_button
+{
+  height: 10rem;
+  position: relative;
+  align-items: center;
+  box-shadow: 6px 4px 3px 3px rgb(0 0 275 / 40%);
+}
+
+/* ///////////////////////////// our services ////////////////////// */
+
+.card_logo_setting
+{
+  width: 10rem ;
+  margin: 0rem auto;
+ padding: 10px;
+}
+.shadow
+{
+  transition-property: all 1s;
+  transition: 1s;
+}
+.shadow:hover
+{
+   transform:scale(1.050);
+  transition: 1s;
+
+}
+                /* this is about us section */
+.row_setting
+{
+  width: 100%;
+  height: 50rem;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.col_sections
+{
+ font-size: 1.5rem;
+  padding: 4rem;
+  height: auto;
+}
+.testimonial
+{
+  width: 50rem;
+  height: auto;
+}
+.price_section
+{
+  height: 75rem;
+  width:  100%;
+  background-image: url(img/background\ of\ last\ section.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position:relative;
+  overflow: hidden;
+}
+.overlaysection
+{
+  position: absolute;
+  font-size: 10rem;
+  height: 79rem;
+  width:  100%;
+  background-color: rgba(0, 0, 0, 70%);
+  transition: 1s;
+}
+/* .overlaysection:hover 
+{
+  padding-top: 5rem;
+  transform: scale(1.1);
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 85%);
+}
+ */
+.testimonial_container
+{
+  padding-top: 20rem;
+  height: 70rem;
+  width: 100%;
+  padding:3rem;
+  text-align: center;
+}
+
+.footer
+{
+  height: 50rem;
+  width: 100%;
+  /* margin: 0px auto; */
+  
+}
+.footer_img
+{
+  margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+                             /* media queries   */
+
+@media (max-width: 992px)
+{
+  html
+  {
+    font-size: 60%;
+  }
+}
+@media (max-width: 768px)
+{
+html
+  {
+    font-size: 50%; 
+  }
+}
+@media (max-width: 576px)
+{
+html
+  {
+    font-size: 45%; 
+  }
+}

@@ -1,0 +1,4 @@
+function effect()
+{
+   document.getElementsByClassName("")
+}
